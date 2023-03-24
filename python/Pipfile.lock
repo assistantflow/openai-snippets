@@ -1,14 +1,16 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1c427d49a692a43ba589cf8e137569e762e55946573c05880edea890fb47716e"
+            "sha256": "8100b4783e57c27448502d1300c306027c3f9db281f88209676268a8e40825c0"
         },
         "pipfile-spec": 6,
-        "requires": {},
+        "requires": {
+            "python_version": "3.10"
+        },
         "sources": [
             {
                 "name": "pypi",
-                "url": "https://pypi.python.org/simple",
+                "url": "https://pypi.org/simple",
                 "verify_ssl": true
             }
         ]
@@ -104,7 +106,7 @@
                 "sha256:fe11310ae1e4cd560035598c3f29d86cef39a83d244c7466f95c27ae04850f10",
                 "sha256:fe7ba4a51f33ab275515f66b0a236bcde4fb5561498fe8f898d4e549b2e4509f"
             ],
-            "index": "pypi",
+            "markers": "python_version >= '3.6'",
             "version": "==3.8.4"
         },
         "aiosignal": {
@@ -409,7 +411,7 @@
                 "sha256:64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa",
                 "sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf"
             ],
-            "index": "pypi",
+            "markers": "python_version >= '3.7' and python_version < '4'",
             "version": "==2.28.2"
         },
         "tqdm": {
