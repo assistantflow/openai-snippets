@@ -18,6 +18,8 @@ api = "api.cli:main"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.2"
+mypy = "^1.1.1"
+pre-commit = "^3.2.0"
 
 [build-system]
 requires = ["poetry-core"]
